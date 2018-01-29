@@ -18,16 +18,23 @@ header {
 }
 
 #name {
+    text-align: center;
     background: #4aaaa5;
     color: #ffffff;
     width: 288px;
     padding: 22px 8px;
-    top: 5%;
+    margin-top: 8px;
+    margin-left: 133px;
+    margin-bottom: 0px;
 }
 
 a {
     text-decoration: none;
 
+}
+
+nav {
+    margin-right:136px;
 }
 
 /*Centering Content Area*/
@@ -44,20 +51,26 @@ content {
 article {
     display: block;
     width: 650px;
+    background: #ffffff;
+    margin-top: 35px;
     float: left;
 }
 
 #photo {
     height: 200px;
     width: 200px;
+    margin-left: 10px;
+    float: left;
 }
 
 /*Styling Sidebar*/
 
 aside {
+    background: #ffffff;
     display:block;
     width: 270px;
     float: right;
+    margin-top: 35px;
 }
 
 .icon {
