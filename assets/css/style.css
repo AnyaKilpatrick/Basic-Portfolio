@@ -4,9 +4,12 @@ body {
     height:100%;
     background: #eeedeb;
     font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
 }
 h1 {
     font-family:"Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
 }
 
 /*Styling header*/
@@ -15,27 +18,44 @@ header {
     background: #ffffff;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
 }
 
 #name {
     text-align: center;
     background: #4aaaa5;
     color: #ffffff;
-    width: 288px;
-    padding: 22px 8px;
-    margin-top: 8px;
-    margin-left: 133px;
+    width: 325px;
+    padding: 18px 10px;
+    margin-left: 20%;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 a {
     text-decoration: none;
+    color: #777777;
+}
 
+#firstLink {
+    padding-right: 10%;
+}
+
+#middleLink {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-right: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+}
+#lastLink {
+    padding-left: 10%;
 }
 
 nav {
-    margin-right:136px;
+    display: flex;
+    margin-right:25%;
 }
+
 
 /*Centering Content Area*/
 
@@ -54,14 +74,16 @@ article {
     background: #ffffff;
     margin-top: 35px;
     float: left;
+    border: 2px solid #dddddd;
 }
 
 #photo {
     height: 200px;
     width: 200px;
-    margin-left: 10px;
+    margin: 10px;
     float: left;
 }
+
 
 /*Styling Sidebar*/
 
@@ -71,18 +93,31 @@ aside {
     width: 270px;
     float: right;
     margin-top: 35px;
+    text-align: center;
+    padding-bottom: 2%;
+    border: 2px solid #dddddd;
 }
 
 .icon {
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
 }
 
-
-
-
+#sidebarLine {
+    width: 90%;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 22px;
+    margin: 20px 13px 20px 13px;
+}
 
 footer {
     clear: both;
-
+    background: #666666;
+    font-size: 14px;
+    color: #dddddd;
+    width: 100%;
+    padding-top:50px;
+    padding-bottom:10px;
+    text-align: center;
+    
 }
