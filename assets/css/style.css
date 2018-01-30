@@ -7,6 +7,7 @@ body {
     color: #777777;
     font-size: 18px;
 }
+
 h1 {
     font-family:"Georgia", Times, "Times New Roman", serif;
     color: #4aaaa5;
@@ -32,34 +33,38 @@ header {
     margin-top: 0px;
 }
 
+/*Styling navigation block*/
+
+nav {
+    width: 270px;
+    margin-right:18.5%;
+}
+
 a {
     text-decoration: none;
     color: #777777;
 }
 
 #firstLink {
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 #middleLink {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-right: 2px solid #dddddd;
     border-left: 2px solid #dddddd;
 }
 #lastLink {
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
-nav {
-    display: flex;
-    margin-right:25%;
-}
 
 
 /*Centering Content Area*/
 
 content {
+    overflow: visible;
     display: block;
     width: 960px;
     margin: 0 auto;
@@ -68,6 +73,14 @@ content {
 
 
 /*Styling Article*/
+#articleHeading {
+    width: 90%;
+    margin-left: 30px;
+    border-bottom: 2px solid #dddddd;
+    padding: 10px 0px 25px 0px;
+}
+
+
 article {
     display: block;
     width: 650px;
@@ -75,15 +88,20 @@ article {
     margin-top: 35px;
     float: left;
     border: 2px solid #dddddd;
+    margin-bottom: 40px;
+    padding-bottom: 70px;
 }
 
 #photo {
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 0px 16px 10px 30px;
     float: left;
 }
 
+#text {
+    margin: 0px 30px;
+}
 
 /*Styling Sidebar*/
 
@@ -110,14 +128,20 @@ aside {
     margin: 20px 13px 20px 13px;
 }
 
+/*Styling sticky footer*/
+
 footer {
     clear: both;
     background: #666666;
     font-size: 14px;
     color: #dddddd;
     width: 100%;
-    padding-top:50px;
-    padding-bottom:10px;
+    height:62px;
+    margin-top: -50px;
     text-align: center;
-    
+    border-top: 8px solid  #4aaaa5;
+}
+
+#copyright {
+    margin-top: 35px;
 }
