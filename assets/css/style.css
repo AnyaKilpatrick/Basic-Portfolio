@@ -59,10 +59,6 @@ nav {
     border-radius: 100px;
 }
 
-/*.hoverMenu:hover {
-    color: #4aaaa5;
-    font-size: 22px;
-}*/
 
 a {
     text-decoration: none;
@@ -100,6 +96,7 @@ a {
 
 
 /*Styling Article*/
+
 #articleHeading {
     width: 90%;
     margin-left: 30px;
